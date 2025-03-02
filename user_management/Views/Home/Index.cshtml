@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <div class="">
+        <div class="justify-center items-center">
+
+            <div class="mt-4 mb-4 text-center">
+                <h1 class="text-red-700">User Management</h1>
+            </div>
+
+            <div class="mb-4  text-center">
+                <p>User List</p>
+            </div>
+
+            <div class="">
+                
+                @await Html.PartialAsync("~/Views/Home/_View_user.cshtml")
+            </div>
+
+        </div>
+      </div>
+</div>
