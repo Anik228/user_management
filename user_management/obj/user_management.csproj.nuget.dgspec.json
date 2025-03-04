@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\anik_VAS\\vas_projects\\dot_net_project\\user_management\\user_management\\user_management.csproj": {}
+    "D:\\anik_VAS\\vas_projects\\dot_net_project\\User_Management\\user_management\\user_management.csproj": {}
   },
   "projects": {
-    "D:\\anik_VAS\\vas_projects\\dot_net_project\\user_management\\user_management\\user_management.csproj": {
+    "D:\\anik_VAS\\vas_projects\\dot_net_project\\User_Management\\user_management\\user_management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\anik_VAS\\vas_projects\\dot_net_project\\user_management\\user_management\\user_management.csproj",
+        "projectUniqueName": "D:\\anik_VAS\\vas_projects\\dot_net_project\\User_Management\\user_management\\user_management.csproj",
         "projectName": "user_management",
-        "projectPath": "D:\\anik_VAS\\vas_projects\\dot_net_project\\user_management\\user_management\\user_management.csproj",
+        "projectPath": "D:\\anik_VAS\\vas_projects\\dot_net_project\\User_Management\\user_management\\user_management.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\anik_VAS\\vas_projects\\dot_net_project\\user_management\\user_management\\obj\\",
+        "outputPath": "D:\\anik_VAS\\vas_projects\\dot_net_project\\User_Management\\user_management\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
