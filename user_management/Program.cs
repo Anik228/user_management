@@ -1,8 +1,19 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using pharmacy_pos_system.module.role.service;
+using user_management.common;
+using user_management.context;
+using user_management.module.user.service;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var connectionString = builder.Configuration.GetConnectionString("MssqlConnection");
+
+
+builder.Services.AddDbContext<DbContextCommon>(options =>
+    options.UseSqlServer(connectionString));
 
 
 builder.Services.AddControllersWithViews();
@@ -13,6 +24,11 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "User Management API", Version = "v1" });
 });
+
+
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped(typeof(IUserRepository<>), typeof(UserRepository<>));
+
 
 var app = builder.Build();
 
