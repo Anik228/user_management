@@ -38,6 +38,7 @@
     </form>
 </div>
 
+<<<<<<< HEAD
 <script type="module" src="~/js/UserAction.js"></script>
 
 
@@ -65,3 +66,50 @@
         }
     });
 </script>
+=======
+<script>
+    document.getElementById('addUserForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        // Get input values
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+        const company = document.getElementById('company').value;
+        const department = document.getElementById('department').value;
+        const role = document.getElementById('role').value;
+
+        const userData = {
+            name,
+            email,
+            phone,
+            company,
+            department,
+            role
+        };
+
+        try {
+            const response = await fetch('https://localhost:5001/api/User/Create', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(userData)
+            });
+
+            const result = await response.json();
+
+            if (result.status) {
+                alert("User added successfully!");
+                // Optionally, reset the form after success
+                document.getElementById('addUserForm').reset();
+            } else {
+                alert("Failed to add user.");
+            }
+        } catch (error) {
+            console.error("Error adding user:", error);
+            alert("An error occurred. Please try again.");
+        }
+    });
+</script>
+>>>>>>> 805d2c7f9720cc9c9dbc1c22c673023a798efca8

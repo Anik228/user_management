@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using user_management.context;
 
@@ -11,17 +12,15 @@ using user_management.context;
 namespace user_management.Migrations
 {
     [DbContext(typeof(DbContextCommon))]
-    partial class DbContextCommonModelSnapshot : ModelSnapshot
+    [Migration("20250311083932_userTable")]
+    partial class userTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-<<<<<<< HEAD
-                .HasAnnotation("ProductVersion", "8.0.3")
-=======
                 .HasAnnotation("ProductVersion", "7.0.16")
->>>>>>> 805d2c7f9720cc9c9dbc1c22c673023a798efca8
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
