@@ -1,42 +1,42 @@
 ﻿<div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md h-full w-full">
     <h2 class="text-lg font-semibold mb-4">Update a User</h2>
-    <form class="mb-6">
+    <form id="searchUserForm">
         <div class="mb-4">
             <label class="block text-sm font-medium text-gray-700 mb-4">ID</label>
-            <input type="text" placeholder="Enter user ID" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
+            <input type="text" id="userId" placeholder="Enter user ID" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
         </div>
         <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600">
             Search a User
         </button>
     </form>
 
-    <form>
+    <form id="updateUserForm" style="display: none;" class="mt-4">
         <div class="mb-4">
             <label class="block text-sm font-medium text-gray-700 mb-4">Name</label>
-            <input type="text" placeholder="Enter name" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
+            <input type="text" id="updateName" placeholder="Enter name" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
         </div>
         <div class="mb-4">
             <label class="block text-sm font-medium text-gray-700 mb-4">Email</label>
-            <input type="email" placeholder="Enter email" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
+            <input type="email" id="updateEmail" placeholder="Enter email" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
         </div>
         <div class="mb-4">
             <label class="block text-sm font-medium text-gray-700 mb-4">Phone</label>
-            <input type="number" placeholder="Enter phone number" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
+            <input type="number" id="updatePhone" placeholder="Enter phone number" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
         </div>
 
         <div class="mb-4">
             <label class="block text-sm font-medium text-gray-700 mb-4">Company</label>
-            <input type="text" placeholder="Enter Comany name" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
+            <input type="text" id="updateCompany" placeholder="Enter Company name" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
         </div>
 
         <div class="mb-4">
             <label class="block text-sm font-medium text-gray-700 mb-4">Department</label>
-            <input type="text" placeholder="Enter Departmet name" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
+            <input type="text" id="updateDepartment" placeholder="Enter Department name" class="w-full input input-neutral p-2 border border-gray-300 rounded-md">
         </div>
 
         <div class="mb-4">
             <label class="block text-sm font-medium text-gray-700 mb-4">Role</label>
-            <select class="w-full input input-neutral p-2 border rounded-md">
+            <select id="updateRole" class="w-full input input-neutral p-2 border rounded-md">
                 <option value="user">User</option>
                 <option value="admin">Admin</option>
             </select>
@@ -46,3 +46,61 @@
         </button>
     </form>
 </div>
+
+<script type="module" src="~/js/UserAction.js"></script>
+
+<script type="module">
+    import { getUserById, updateUser } from './js/UserAction.js';
+
+    
+    document.getElementById("searchUserForm").addEventListener("submit", async function (event) {
+        event.preventDefault();
+        const userId = document.getElementById("userId").value;
+
+        const user = await getUserById(userId);
+
+        console.log("========");
+
+        console.log(user.name);
+
+        console.log(user.name);
+
+
+
+        if (user) {
+            const userData = user.data; 
+
+            document.getElementById("updateName").value = userData.name;
+            document.getElementById("updateEmail").value = userData.email;
+            document.getElementById("updatePhone").value = userData.phone;
+            document.getElementById("updateCompany").value = userData.company;
+            document.getElementById("updateDepartment").value = userData.department;
+            document.getElementById("updateRole").value = userData.role;
+
+            document.getElementById("updateUserForm").style.display = "block";
+        } else {
+            alert("User not found!");
+        }
+    });
+
+    
+    document.getElementById("updateUserForm").addEventListener("submit", async function (event) {
+        event.preventDefault();
+
+        const updatedUser = {
+            name: document.getElementById("updateName").value,
+            email: document.getElementById("updateEmail").value,
+            phone: document.getElementById("updatePhone").value,
+            company: document.getElementById("updateCompany").value,
+            department: document.getElementById("updateDepartment").value,
+            role: document.getElementById("updateRole").value
+        };
+
+        const userId = document.getElementById("userId").value;
+
+        const result = await updateUser(userId, updatedUser);
+        if (result) {
+            alert("User updated successfully!");
+        }
+    });
+</script>

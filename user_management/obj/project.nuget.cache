@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "34QdoLx/zyc=",
+  "dgSpecHash": "xCahcRx5kew=",
   "success": true,
-  "projectFilePath": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\user_management.csproj",
+  "projectFilePath": "B:\\skill_developing\\dot_net\\um_new\\user_management-main\\user_management\\user_management.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anik228\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Anik228\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

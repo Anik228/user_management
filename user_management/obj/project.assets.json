@@ -4809,11 +4809,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\user_management.csproj",
+      "projectUniqueName": "B:\\skill_developing\\dot_net\\um_new\\user_management-main\\user_management\\user_management.csproj",
       "projectName": "user_management",
-      "projectPath": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\user_management.csproj",
+      "projectPath": "B:\\skill_developing\\dot_net\\um_new\\user_management-main\\user_management\\user_management.csproj",
       "packagesPath": "C:\\Users\\Anik228\\.nuget\\packages\\",
-      "outputPath": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\obj\\",
+      "outputPath": "B:\\skill_developing\\dot_net\\um_new\\user_management-main\\user_management\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Anik228\\AppData\\Roaming\\NuGet\\NuGet.Config",

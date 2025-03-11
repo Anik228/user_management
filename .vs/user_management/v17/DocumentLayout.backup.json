@@ -3,12 +3,72 @@
   "WorkspaceRootPath": "B:\\skill_developing\\dot_net\\user_management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\module\\user\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\module\\user\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\module\\user\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\module\\user\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\common\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\common\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\common\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\common\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\module\\user\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\module\\user\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\module\\user\\model\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\module\\user\\model\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\module\\user\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\module\\user\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\module\\user\\model\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\module\\user\\model\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\module\\user\\model\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\module\\user\\model\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\common\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\common\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\common\\apierros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\common\\apierros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\context\\dbcontextcommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\context\\dbcontextcommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\user_management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\user_management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|solutionrelative:user_management\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{762F2FE1-C3E6-42D3-AAF2-2A19A3A28249}|user_management\\user_management.csproj|b:\\skill_developing\\dot_net\\user_management\\user_management\\views\\home\\_view_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -65,24 +125,219 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\model\\User.cs",
+              "RelativeDocumentMoniker": "user_management\\module\\user\\model\\User.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\model\\User.cs",
+              "RelativeToolTip": "user_management\\module\\user\\model\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:11:23.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserConfig.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\model\\UserConfig.cs",
+              "RelativeDocumentMoniker": "user_management\\module\\user\\model\\UserConfig.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\model\\UserConfig.cs",
+              "RelativeToolTip": "user_management\\module\\user\\model\\UserConfig.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:12:00.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\service\\IUserService.cs",
+              "RelativeDocumentMoniker": "user_management\\module\\user\\service\\IUserService.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\service\\IUserService.cs",
+              "RelativeToolTip": "user_management\\module\\user\\service\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:10:46.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\service\\UserService.cs",
+              "RelativeDocumentMoniker": "user_management\\module\\user\\service\\UserService.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\service\\UserService.cs",
+              "RelativeToolTip": "user_management\\module\\user\\service\\UserService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:10:59.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\controller\\UserController.cs",
+              "RelativeDocumentMoniker": "user_management\\module\\user\\controller\\UserController.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\controller\\UserController.cs",
+              "RelativeToolTip": "user_management\\module\\user\\controller\\UserController.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAuwEUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:12:46.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\common\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "user_management\\common\\IUserRepository.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\common\\IUserRepository.cs",
+              "RelativeToolTip": "user_management\\common\\IUserRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:24:10.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\common\\UserRepository.cs",
+              "RelativeDocumentMoniker": "user_management\\common\\UserRepository.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\common\\UserRepository.cs",
+              "RelativeToolTip": "user_management\\common\\UserRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:24:56.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\model\\UserDto.cs",
+              "RelativeDocumentMoniker": "user_management\\module\\user\\model\\UserDto.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\model\\UserDto.cs",
+              "RelativeToolTip": "user_management\\module\\user\\model\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:11:34.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\model\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "user_management\\module\\user\\model\\CreateUserDto.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\module\\user\\model\\CreateUserDto.cs",
+              "RelativeToolTip": "user_management\\module\\user\\model\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:12:11.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Program.cs",
               "RelativeDocumentMoniker": "user_management\\Program.cs",
               "ToolTip": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Program.cs",
               "RelativeToolTip": "user_management\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T16:58:55.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\common\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "user_management\\common\\AutoMapperConfig.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\user_management\\user_management\\common\\AutoMapperConfig.cs",
+              "RelativeToolTip": "user_management\\common\\AutoMapperConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:25:55.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "APIResponse.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\common\\APIResponse.cs",
+              "RelativeDocumentMoniker": "user_management\\common\\APIResponse.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\user_management\\user_management\\common\\APIResponse.cs",
+              "RelativeToolTip": "user_management\\common\\APIResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T16:01:20.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiErros.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\common\\ApiErros.cs",
+              "RelativeDocumentMoniker": "user_management\\common\\ApiErros.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\user_management\\user_management\\common\\ApiErros.cs",
+              "RelativeToolTip": "user_management\\common\\ApiErros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T16:01:12.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DbContextCommon.cs",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\context\\DbContextCommon.cs",
+              "RelativeDocumentMoniker": "user_management\\context\\DbContextCommon.cs",
+              "ToolTip": "B:\\skill_developing\\dot_net\\user_management\\user_management\\context\\DbContextCommon.cs",
+              "RelativeToolTip": "user_management\\context\\DbContextCommon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:57:58.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\appsettings.json",
+              "RelativeDocumentMoniker": "user_management\\appsettings.json",
+              "ToolTip": "B:\\skill_developing\\dot_net\\user_management\\user_management\\appsettings.json",
+              "RelativeToolTip": "user_management\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-10T15:19:46.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "user_management",
+              "DocumentMoniker": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\user_management.csproj",
+              "RelativeDocumentMoniker": "user_management\\user_management.csproj",
+              "ToolTip": "B:\\skill_developing\\dot_net\\User_Management\\user_management\\user_management.csproj",
+              "RelativeToolTip": "user_management\\user_management.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-10T14:17:16.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "styles.css",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "user_management\\wwwroot\\css\\styles.css",
@@ -95,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 27,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "user_management\\Views\\_ViewImports.cshtml",
@@ -108,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "user_management\\Views\\Home\\Privacy.cshtml",
@@ -121,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "_View_user.cshtml",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Views\\Home\\_View_user.cshtml",
               "RelativeDocumentMoniker": "user_management\\Views\\Home\\_View_user.cshtml",
@@ -134,20 +389,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "tailwind.config.js",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\tailwind.config.js",
               "RelativeDocumentMoniker": "user_management\\tailwind.config.js",
               "ToolTip": "B:\\skill_developing\\dot_net\\user_management\\user_management\\tailwind.config.js",
               "RelativeToolTip": "user_management\\tailwind.config.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-04T16:16:46.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "_Add_user.cshtml",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Views\\Home\\_Add_user.cshtml",
               "RelativeDocumentMoniker": "user_management\\Views\\Home\\_Add_user.cshtml",
@@ -160,33 +415,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "_Update_user.cshtml",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Views\\Home\\_Update_user.cshtml",
               "RelativeDocumentMoniker": "user_management\\Views\\Home\\_Update_user.cshtml",
               "ToolTip": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Views\\Home\\_Update_user.cshtml",
               "RelativeToolTip": "user_management\\Views\\Home\\_Update_user.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T16:16:46.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "user_management\\Views\\Home\\Index.cshtml",
               "ToolTip": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "user_management\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T16:16:46.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "Microsoft.NET.TargetFrameworkInference.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
@@ -197,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "launchSettings.json",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "user_management\\Properties\\launchSettings.json",
@@ -210,20 +465,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "user_management\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "B:\\skill_developing\\dot_net\\user_management\\user_management\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "user_management\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBZwBUAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAACBjwBUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T16:16:46.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 26,
               "Title": "package.json",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\package.json",
               "RelativeDocumentMoniker": "user_management\\package.json",
@@ -236,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 25,
               "Title": "site.css",
               "DocumentMoniker": "B:\\skill_developing\\dot_net\\user_management\\user_management\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "user_management\\wwwroot\\css\\site.css",
