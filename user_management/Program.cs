@@ -7,6 +7,8 @@ using user_management.common;
 using user_management.context;
 using user_management.module.user.service;
 
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("MssqlConnection");
@@ -28,6 +30,9 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped(typeof(IUserRepository<>), typeof(UserRepository<>));
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 
 
 var app = builder.Build();

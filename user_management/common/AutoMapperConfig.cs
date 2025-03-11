@@ -8,7 +8,7 @@ namespace user_management.common
     {
         public AutoMapperConfig()
         {
-
+            CreateMap<CreateUserDto, User>();
             CreateMap<UserDto, User>().ReverseMap();
           
 
